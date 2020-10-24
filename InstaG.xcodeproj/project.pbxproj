@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E49DCC6E2543E0DA00D01649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC6D2543E0DA00D01649 /* AppDelegate.swift */; };
+		E49DCC702543E0DA00D01649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC6F2543E0DA00D01649 /* SceneDelegate.swift */; };
+		E49DCC722543E0DA00D01649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC712543E0DA00D01649 /* ViewController.swift */; };
+		E49DCC752543E0DA00D01649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49DCC732543E0DA00D01649 /* Main.storyboard */; };
+		E49DCC772543E0E100D01649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49DCC762543E0E100D01649 /* Assets.xcassets */; };
+		E49DCC7A2543E0E100D01649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49DCC782543E0E100D01649 /* LaunchScreen.storyboard */; };
+		E49DCC852543E0E200D01649 /* InstaGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC842543E0E200D01649 /* InstaGTests.swift */; };
+		E49DCC902543E0E200D01649 /* InstaGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC8F2543E0E200D01649 /* InstaGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E49DCC812543E0E200D01649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49DCC622543E0DA00D01649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49DCC692543E0DA00D01649;
+			remoteInfo = InstaG;
+		};
+		E49DCC8C2543E0E200D01649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E49DCC622543E0DA00D01649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49DCC692543E0DA00D01649;
+			remoteInfo = InstaG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E49DCC6A2543E0DA00D01649 /* InstaG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49DCC6D2543E0DA00D01649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E49DCC6F2543E0DA00D01649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E49DCC712543E0DA00D01649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49DCC742543E0DA00D01649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49DCC762543E0E100D01649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E49DCC792543E0E100D01649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E49DCC7B2543E0E100D01649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49DCC802543E0E200D01649 /* InstaGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49DCC842543E0E200D01649 /* InstaGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGTests.swift; sourceTree = "<group>"; };
+		E49DCC862543E0E200D01649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49DCC8B2543E0E200D01649 /* InstaGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49DCC8F2543E0E200D01649 /* InstaGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGUITests.swift; sourceTree = "<group>"; };
+		E49DCC912543E0E200D01649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49DCC672543E0DA00D01649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC7D2543E0E200D01649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC882543E0E200D01649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E49DCC612543E0DA00D01649 = {
+			isa = PBXGroup;
+			children = (
+				E49DCC6C2543E0DA00D01649 /* InstaG */,
+				E49DCC832543E0E200D01649 /* InstaGTests */,
+				E49DCC8E2543E0E200D01649 /* InstaGUITests */,
+				E49DCC6B2543E0DA00D01649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49DCC6B2543E0DA00D01649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49DCC6A2543E0DA00D01649 /* InstaG.app */,
+				E49DCC802543E0E200D01649 /* InstaGTests.xctest */,
+				E49DCC8B2543E0E200D01649 /* InstaGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49DCC6C2543E0DA00D01649 /* InstaG */ = {
+			isa = PBXGroup;
+			children = (
+				E49DCC6D2543E0DA00D01649 /* AppDelegate.swift */,
+				E49DCC6F2543E0DA00D01649 /* SceneDelegate.swift */,
+				E49DCC712543E0DA00D01649 /* ViewController.swift */,
+				E49DCC732543E0DA00D01649 /* Main.storyboard */,
+				E49DCC762543E0E100D01649 /* Assets.xcassets */,
+				E49DCC782543E0E100D01649 /* LaunchScreen.storyboard */,
+				E49DCC7B2543E0E100D01649 /* Info.plist */,
+			);
+			path = InstaG;
+			sourceTree = "<group>";
+		};
+		E49DCC832543E0E200D01649 /* InstaGTests */ = {
+			isa = PBXGroup;
+			children = (
+				E49DCC842543E0E200D01649 /* InstaGTests.swift */,
+				E49DCC862543E0E200D01649 /* Info.plist */,
+			);
+			path = InstaGTests;
+			sourceTree = "<group>";
+		};
+		E49DCC8E2543E0E200D01649 /* InstaGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E49DCC8F2543E0E200D01649 /* InstaGUITests.swift */,
+				E49DCC912543E0E200D01649 /* Info.plist */,
+			);
+			path = InstaGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49DCC692543E0DA00D01649 /* InstaG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49DCC942543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaG" */;
+			buildPhases = (
+				E49DCC662543E0DA00D01649 /* Sources */,
+				E49DCC672543E0DA00D01649 /* Frameworks */,
+				E49DCC682543E0DA00D01649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaG;
+			productName = InstaG;
+			productReference = E49DCC6A2543E0DA00D01649 /* InstaG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E49DCC7F2543E0E200D01649 /* InstaGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49DCC972543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaGTests" */;
+			buildPhases = (
+				E49DCC7C2543E0E200D01649 /* Sources */,
+				E49DCC7D2543E0E200D01649 /* Frameworks */,
+				E49DCC7E2543E0E200D01649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49DCC822543E0E200D01649 /* PBXTargetDependency */,
+			);
+			name = InstaGTests;
+			productName = InstaGTests;
+			productReference = E49DCC802543E0E200D01649 /* InstaGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E49DCC8A2543E0E200D01649 /* InstaGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49DCC9A2543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaGUITests" */;
+			buildPhases = (
+				E49DCC872543E0E200D01649 /* Sources */,
+				E49DCC882543E0E200D01649 /* Frameworks */,
+				E49DCC892543E0E200D01649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49DCC8D2543E0E200D01649 /* PBXTargetDependency */,
+			);
+			name = InstaGUITests;
+			productName = InstaGUITests;
+			productReference = E49DCC8B2543E0E200D01649 /* InstaGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49DCC622543E0DA00D01649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Mohit;
+				TargetAttributes = {
+					E49DCC692543E0DA00D01649 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E49DCC7F2543E0E200D01649 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = E49DCC692543E0DA00D01649;
+					};
+					E49DCC8A2543E0E200D01649 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = E49DCC692543E0DA00D01649;
+					};
+				};
+			};
+			buildConfigurationList = E49DCC652543E0DA00D01649 /* Build configuration list for PBXProject "InstaG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E49DCC612543E0DA00D01649;
+			productRefGroup = E49DCC6B2543E0DA00D01649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49DCC692543E0DA00D01649 /* InstaG */,
+				E49DCC7F2543E0E200D01649 /* InstaGTests */,
+				E49DCC8A2543E0E200D01649 /* InstaGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49DCC682543E0DA00D01649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49DCC7A2543E0E100D01649 /* LaunchScreen.storyboard in Resources */,
+				E49DCC772543E0E100D01649 /* Assets.xcassets in Resources */,
+				E49DCC752543E0DA00D01649 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC7E2543E0E200D01649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC892543E0E200D01649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49DCC662543E0DA00D01649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49DCC722543E0DA00D01649 /* ViewController.swift in Sources */,
+				E49DCC6E2543E0DA00D01649 /* AppDelegate.swift in Sources */,
+				E49DCC702543E0DA00D01649 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC7C2543E0E200D01649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49DCC852543E0E200D01649 /* InstaGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49DCC872543E0E200D01649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49DCC902543E0E200D01649 /* InstaGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E49DCC822543E0E200D01649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49DCC692543E0DA00D01649 /* InstaG */;
+			targetProxy = E49DCC812543E0E200D01649 /* PBXContainerItemProxy */;
+		};
+		E49DCC8D2543E0E200D01649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E49DCC692543E0DA00D01649 /* InstaG */;
+			targetProxy = E49DCC8C2543E0E200D01649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E49DCC732543E0DA00D01649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49DCC742543E0DA00D01649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E49DCC782543E0E100D01649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49DCC792543E0E100D01649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49DCC922543E0E200D01649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E49DCC932543E0E200D01649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E49DCC952543E0E200D01649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E49DCC962543E0E200D01649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E49DCC982543E0E200D01649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaG.app/InstaG";
+			};
+			name = Debug;
+		};
+		E49DCC992543E0E200D01649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaG.app/InstaG";
+			};
+			name = Release;
+		};
+		E49DCC9B2543E0E200D01649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaG;
+			};
+			name = Debug;
+		};
+		E49DCC9C2543E0E200D01649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohit.InstaGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49DCC652543E0DA00D01649 /* Build configuration list for PBXProject "InstaG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49DCC922543E0E200D01649 /* Debug */,
+				E49DCC932543E0E200D01649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49DCC942543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49DCC952543E0E200D01649 /* Debug */,
+				E49DCC962543E0E200D01649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49DCC972543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49DCC982543E0E200D01649 /* Debug */,
+				E49DCC992543E0E200D01649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49DCC9A2543E0E200D01649 /* Build configuration list for PBXNativeTarget "InstaGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49DCC9B2543E0E200D01649 /* Debug */,
+				E49DCC9C2543E0E200D01649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49DCC622543E0DA00D01649 /* Project object */;
+}
