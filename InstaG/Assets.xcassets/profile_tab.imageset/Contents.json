@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "profile_tab.png",
       "idiom" : "universal",
       "scale" : "1x"
     },

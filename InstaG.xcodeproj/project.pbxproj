@@ -19,6 +19,8 @@
 		E49DCC902543E0E200D01649 /* InstaGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC8F2543E0E200D01649 /* InstaGUITests.swift */; };
 		E49DCC9E2543E6BC00D01649 /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC9D2543E6BC00D01649 /* logInViewController.swift */; };
 		E49DCCA02543E6E100D01649 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCC9F2543E6E100D01649 /* FeedViewController.swift */; };
+		E49DCCA22543EF8E00D01649 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DCCA12543EF8E00D01649 /* CameraViewController.swift */; };
+		E4DCF1AE254409C30029E019 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCF1AD254409C30029E019 /* postCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		E49DCC912543E0E200D01649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49DCC9D2543E6BC00D01649 /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		E49DCC9F2543E6E100D01649 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E49DCCA12543EF8E00D01649 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E4DCF1AD254409C30029E019 /* postCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				E49DCC7B2543E0E100D01649 /* Info.plist */,
 				E49DCC9D2543E6BC00D01649 /* logInViewController.swift */,
 				E49DCC9F2543E6E100D01649 /* FeedViewController.swift */,
+				E49DCCA12543EF8E00D01649 /* CameraViewController.swift */,
+				E4DCF1AD254409C30029E019 /* postCell.swift */,
 			);
 			path = InstaG;
 			sourceTree = "<group>";
@@ -411,6 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49DCC6E2543E0DA00D01649 /* AppDelegate.swift in Sources */,
+				E4DCF1AE254409C30029E019 /* postCell.swift in Sources */,
+				E49DCCA22543EF8E00D01649 /* CameraViewController.swift in Sources */,
 				E49DCC9E2543E6BC00D01649 /* logInViewController.swift in Sources */,
 				E49DCCA02543E6E100D01649 /* FeedViewController.swift in Sources */,
 				E49DCC702543E0DA00D01649 /* SceneDelegate.swift in Sources */,
