@@ -1,6 +1,6 @@
 ## InstaG - Part I
 
-This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
+This is an Instagram clone with a custom Parse backend that allows a user to post photos and view global photos feed and post comments on photos.
 
 Time spent: **8** hours spent in total
 
