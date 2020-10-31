@@ -11,6 +11,13 @@ Time spent: **10** hours spent in total
 - [x] User can view comments on a post. 
 - [x] User can add a new comment. 
 
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/OfmBlLS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## InstaG - Part I
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view global photos feed and post comments on photos.
